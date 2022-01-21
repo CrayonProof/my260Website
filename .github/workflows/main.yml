@@ -1,4 +1,4 @@
-name: CI - Name your workflow something meaningful
+name: CI - webServerSync
 
 on:
   # Triggers when something in the www path on the main branch of your repo changes
