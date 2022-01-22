@@ -3,7 +3,7 @@ name: CI - webServerSync
 on:
   # Triggers when something in the www path on the main branch of your repo changes
   push:
-    branches: [ main ]
+    branches: [ master ]
     paths: [ 'www/**' ]
 
   # Allows you to run this workflow manually from the Actions tab
