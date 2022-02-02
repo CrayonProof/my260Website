@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+  .section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0D0FF;
+    border-radius: 1rem;
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .title {
+      padding-bottom: 2rem;
+  }
+  
+  .menu {
+    width: 100%;
+    height: 4rem;
+    background-color: #3C3C41;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .menu-item {
+    color: white;
+    font-size: 1rem;
+}
+  
+  .footer {
+    width: 100%;
+    height: 4rem;
+    background-color: #3C3C41;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem
+  }
+  
+  .footer-item {
+    color: white;
+  }
+
+.footer-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem
+}
+
+  .footer-item a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .profile-photo {
+      float: left;
+      margin: 0 0.8rem;
+  }
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    .menu-item {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    h3 {
+        font-size: .8rem;
+    }
+
+    .header {
+        height: 10rem;
+        justify-content: center;
+    }
+
+    .section {
+        height: 14rem;
+        font-size: .9rem;
+    }
+
+    .footer-content {
+        width: 100%;
+        height: 4rem;
+        background-color: #3C3C41;
+      }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    .menu-item {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .header {
+        height: 14rem;
+        justify-content: center;
+    }
+
+    .section {
+        height: 14rem;
+        font-size: .9rem;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-content {
+        width: 800px;
+    }
+
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    .page {
+        width: 960px;
+        margin: 0 auto;
+      }
+      
+      .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-content {
+        width: 800px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .section {
+        padding: 3rem;
+    }
+  }
