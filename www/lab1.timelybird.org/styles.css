@@ -5,7 +5,7 @@
   }
 
   body {
-    background-image: url("images/hills.png");
+    background-image: url("images/hills.jpg");
     background-color: #cccccc;
     font-family: 'Work Sans', sans-serif;
    }
@@ -42,6 +42,7 @@
 @media only screen and (max-width: 400px) {
     
     .title {
+        margin: 5rem 0 8rem 0;
         font-size: 0rem;
     }
 
