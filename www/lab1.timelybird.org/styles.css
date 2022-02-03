@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+  body {
+    background-image: url("images/hills.png");
+    background-color: #cccccc;
+    font-family: 'Work Sans', sans-serif;
+   }
+
+   .page {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+   .title {
+        font-family: 'Monsieur La Doulaise', cursive;
+        font-size: 5rem;
+        margin: 5rem 0 14rem 0;
+   }
+
+   .navbar-brand {
+    font-family: 'Monsieur La Doulaise', cursive;
+   }
+
+   .option {
+       font-size: 5rem;
+        padding: 1rem;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    
+    .title {
+        font-size: 0rem;
+    }
+
+  }
+
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+   
+    .title {
+        font-size: 0rem;
+    }
+
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    
+    .title {
+        font-size: 4rem;
+    }
+
+    .options {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .option {
+        font-size: 5rem;
+         padding: 1rem 8rem;
+     }
+
+     .shop {
+         margin-right: 4rem
+     }
+
+  }
