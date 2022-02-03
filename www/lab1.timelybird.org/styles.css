@@ -39,7 +39,7 @@
     }
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 470px) {
     
     .title {
         margin: 5rem 0 8rem 0;
@@ -49,7 +49,7 @@
   }
 
   /* Tablet Styles */
-  @media only screen and (min-width: 401px) and (max-width: 960px) {
+  @media only screen and (min-width: 471px) and (max-width: 960px) {
    
     .title {
         font-size: 0rem;
