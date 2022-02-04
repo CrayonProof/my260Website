@@ -4,48 +4,57 @@
         <meta charset='UTF-8'/>
         <meta name='viewport'
         content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+        <link rel='stylesheet' href='styles/global-styles.css'/>
         <title>Portfolio</title>
-        <link rel='stylesheet' href='styles.css'/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel='stylesheet' href='styles/home-styles.css'/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <nav class="navbar navbar-inverse navbar-static-top">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Gabbitas Photography</a>
-              </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#"></span>contact</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-
-          <div class='page'>
-                <div class='title'><p>Gabbitas Photography</p></div>
-                <div class='options'>
-                    <div class='option shop'><a href=''>SHOP</a></div>
-                    <div class='option portfolio'><p><a href=''>PORTFOLIO</a></p></div>
-                    <div class='option about'><p><a href=''>ABOUT</a></p></div>
-                </div>
-          </div>
-
-          <div class='footer'>
-            <div class='footer-item'><p></p></div>
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Gabbitas Photography</a>
         </div>
-    </body>
+
+        <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#myNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+      </nav>
+
+      <div class='page'>
+            <div class='title'><p>Gabbitas Photography</p></div>
+            <div class='options'>
+                <div class='option shop'><a href='shop.html'>SHOP</a></div>
+                <div class='option portfolio'><p><a href='portfolio.html'>PORTFOLIO</a></p></div>
+                <div class='option about'><p><a href='about.html'>ABOUT</a></p></div>
+            </div>
+      </div>
+
+      <div class='footer'>
+        <div class='footer-item'><p></p></div>
+    </div>
+  </body>
 </html>

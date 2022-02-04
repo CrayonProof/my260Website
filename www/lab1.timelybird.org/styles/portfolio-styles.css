@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+  .navbar-brand {
+    font-family: 'Monsieur La Doulaise', cursive;
+   }
+
+  .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .photo-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .photo-grid img {
+    object-fit: cover;
+    width:450px;
+    height:260px;
+    border-radius: 1rem;
+    margin: 0.5rem;
+  }
+
+  /* Desktop Styles */
+  @media only screen and (min-width: 1500px) {
+    
+    .photo-grid {
+        width: 1400px;
+    }
+
+  }

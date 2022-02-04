@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+  .navbar-brand {
+    font-family: 'Monsieur La Doulaise', cursive;
+   }
+
+   .title {
+       margin: 4rem 0 0 0;
+   }
+
+   .content {
+        margin: 2rem 0 5rem 0;
+        width: 40rem;
+   }
+
+   .page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+    /* Mobile Styles */
+    @media only screen and (max-width: 470px) {
+    
+        .title h1{
+            font-size: 1.8rem !important;
+        }
+
+        .content {
+            width: 20rem;
+        }
+
+    }
+
+    /* Tablet Styles */
+    @media only screen and (min-width: 471px) and (max-width: 960px) {
+
+        .title h1{
+            font-size: 2.3rem !important;
+        }
+
+        .content {
+            width: 30rem;
+        }
+
+    }
+
+    /* Desktop Styles */
+    @media only screen and (min-width: 1900px) {
+
+        .content {
+            width: 60rem;
+        }
+
+    }

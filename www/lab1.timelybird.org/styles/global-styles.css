@@ -1,0 +1,16 @@
+.collapse {
+    font-family: 'Work Sans', sans-serif !important;
+        font-weight: 900 !important;
+}
+
+.title h1 {
+    font-family: 'Work Sans', sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 3.2rem;
+}
+
+.content {
+    font-family: 'Work Sans', sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 1.3rem;
+}
