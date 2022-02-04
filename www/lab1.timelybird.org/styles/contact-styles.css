@@ -4,13 +4,17 @@
     box-sizing: border-box; 
   }
 
+  .navbar-brand {
+    font-family: 'Monsieur La Doulaise', cursive;
+   }
+
    .title {
        margin: 4rem 0 0 0;
    }
 
    .content {
-        margin: 2rem 0 5rem 0;
-        width: 40rem;
+        margin: 2rem 0 5rem 5rem;
+        width: 30rem;
    }
 
    .page {
@@ -27,7 +31,7 @@
         }
 
         .content {
-            width: 20rem;
+            width: 15rem;
         }
 
     }
@@ -40,16 +44,7 @@
         }
 
         .content {
-            width: 30rem;
-        }
-
-    }
-
-    /* Desktop Styles */
-    @media only screen and (min-width: 1900px) {
-
-        .content {
-            width: 60rem;
+            width: 20rem;
         }
 
     }

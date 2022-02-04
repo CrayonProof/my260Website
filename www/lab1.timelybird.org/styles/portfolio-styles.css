@@ -45,10 +45,10 @@
     
     .photo-grid img {
         object-fit: cover;
-        width:270px;
-        height:150px;
+        width:340px;
+        height:190px;
         border-radius: 1rem;
-        margin: 0.5rem;
+        margin: 0.2rem;
       }
 
 }
@@ -61,7 +61,7 @@
         width:380px;
         height:210px;
         border-radius: 1rem;
-        margin: 0.5rem;
+        margin: 0.3rem;
       }
 
 }
