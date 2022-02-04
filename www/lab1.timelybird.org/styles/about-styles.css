@@ -4,6 +4,10 @@
     box-sizing: border-box; 
   }
 
+  .navbar-brand {
+    font-family: 'Monsieur La Doulaise', cursive;
+   }
+
    .title {
        margin: 4rem 0 0 0;
    }
