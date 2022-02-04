@@ -39,3 +39,29 @@
     }
 
   }
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 470px) {
+    
+    .photo-grid img {
+        object-fit: cover;
+        width:270px;
+        height:150px;
+        border-radius: 1rem;
+        margin: 0.5rem;
+      }
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 471px) and (max-width: 960px) {
+
+    .photo-grid img {
+        object-fit: cover;
+        width:380px;
+        height:210px;
+        border-radius: 1rem;
+        margin: 0.5rem;
+      }
+
+}
