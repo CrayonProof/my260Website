@@ -13,6 +13,13 @@
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
+
+    flex-grow: 1;
+    padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        min-height:100vh;
+        margin-bottom: -50px;
   }
 
   .photo-grid {
@@ -22,6 +29,20 @@
     align-items: center;
     justify-content: center;
   }
+
+  .footer {
+    flex-shrink: 0;
+    border: transparent;
+    background-color: #10141f;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-item {
+    opacity: .75;
+}
 
   .photo-grid img {
     object-fit: cover;
