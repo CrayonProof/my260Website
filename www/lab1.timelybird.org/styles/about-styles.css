@@ -15,6 +15,7 @@
    .content {
         margin: 2rem 0 5rem 0;
         width: 40rem;
+        text-align: justify;
    }
 
    .page {
@@ -38,6 +39,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.profile-photo img{
+    float: left;
+    margin: 0rem 1rem;
+}
+
+.profile-photo img{
+    border-radius: .7rem;
+    object-fit: cover;
 }
 
 .footer-item {
