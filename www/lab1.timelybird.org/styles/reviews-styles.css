@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+  .navbar-brand {
+    font-family: 'Monsieur La Doulaise', cursive;
+   }
+
+  .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+
+    flex-grow: 1;
+    padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        min-height:100vh;
+        margin-bottom: -50px;
+  }
+
+  .review-grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:baseline;
+    justify-content: center;
+  }
+
+  .footer {
+    flex-shrink: 0;
+    border: transparent;
+    background-color: #10141f;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-item {
+    opacity: .75;
+}
+
+  .review-card {
+    object-fit: cover;
+    width:450px;
+    display: flexbox;
+    border: solid;
+    border-width: 1px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-family: 'Work Sans', sans-serif !important;
+    font-weight: 900 !important;
+    background-color: rgb(235, 235, 235);
+  }
+
+  .review-name {
+      font-size: 1.3rem;
+      font-weight: 900;
+  }
+
+  /* Desktop Styles */
+  @media only screen and (min-width: 1500px) {
+    
+    .photo-grid {
+        width: 1400px;
+    }
+
+  }
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 470px) {
+    
+    .review-card {
+        object-fit: cover;
+        width:300px;
+        display: flexbox;
+        border: solid;
+        border-width: 1px;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 0.5rem;
+        font-family: 'Work Sans', sans-serif !important;
+        font-weight: 900 !important;
+        background-color: rgb(235, 235, 235);
+      }
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 471px) and (max-width: 960px) {
+
+    .review-card {
+        object-fit: cover;
+        width:380px;
+        display: flexbox;
+        border: solid;
+        border-width: 1px;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 0.5rem;
+        font-family: 'Work Sans', sans-serif !important;
+        font-weight: 900 !important;
+        background-color: rgb(235, 235, 235);
+      }
+
+}
