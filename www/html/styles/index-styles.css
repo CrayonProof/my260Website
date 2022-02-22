@@ -1,65 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-  }
-
-  .nav-custom {
-    background-color: #B5D3F4;
-    color: black;
-  }
-
-  body {
-    background-color: #cccccc;
-    font-family: 'Work Sans', sans-serif;
+    .video-container {
+        border-radius: .75rem;
+        overflow: hidden;
+        z-index: 1;
+        width: 700px;
+        height: 393.75px;
+        filter: drop-shadow(2px 2px 4px #00000057);
    }
-
-    .footer {
-        flex-shrink: 0;
-        border: transparent;
-        background-color: #B5D3F4;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .footer-item {
-        opacity: .60;
-    }
-
-   .page {
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-
-       height: 100%;
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-         height:100vh;
-        margin-bottom: -50px;
-   }
-
-   .options {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
 
    .title {
-        font-family: 'Work Sans', Arial;
-        font-size: 5rem;
-        margin: 5rem 0 4rem 0;
-        color: rgb(42, 67, 121) !important;
-        text-align: center;
-   }
-
-   .highlighted-content {
-       border-radius: .75rem;
-       overflow: hidden;
-       border-color: black;
-       border-width: 1px;
+       border-radius: 1rem;
+       background-color: white;
+       padding: 0rem 1.5rem .25rem 1.5rem;
+       filter: drop-shadow(0px 0px 8px #ffffff);
    }
 
 /* Mobile Styles */

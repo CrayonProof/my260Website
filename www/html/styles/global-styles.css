@@ -1,7 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+  body {
+    background-image: url("../assets/images/background-triangles.jpg");
+    background-color: #cccccc;
+    background-repeat: repeat-y;
+    font-family: 'Work Sans', sans-serif;
+   }
+
+  .nav-custom {
+    background-color: #B5D3F4;
+    color: black;
+    filter: drop-shadow(2px 2px 4px #00000057);
+    width: 100%;
+  }
+
 .navbar-brand {
     font-family: 'Work Sans', Arial;
    }
 
+   .title {
+    font-family: 'Work Sans', Arial;
+    font-size: 5rem;
+    margin: 5rem 0 4rem 0;
+    color: rgb(42, 67, 121) !important;
+    text-align: center;
+    }
+
 .nav-item{
     font-weight: 200;
+    }
+
+    .page {
+        font-family: 'Work Sans', Arial;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ 
+        flex-grow: 1;
+        flex-direction: column;
+        min-height:100vh;
+        margin-bottom: -50px;
+    }
+
+    .footer {
+        flex-shrink: 0;
+        border: transparent;
+        background-color: #B5D3F4;
+        height: 50px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        filter: drop-shadow(2px 2px 4px #00000057);
+    }
+
+    .footer-item {
+        opacity: .60;
     }
