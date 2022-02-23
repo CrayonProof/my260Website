@@ -15,7 +15,8 @@
     width: 420px;
     height: 300px;
     margin: 1rem 2rem 1rem 2rem;
-    color: rgb(42, 67, 121) !important;
+    /*color: rgb(42, 67, 121) !important;*/
+    color: rgb(255, 0, 98) !important;
     padding: 2rem
 }
 
