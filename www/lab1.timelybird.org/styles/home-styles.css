@@ -13,7 +13,7 @@
     .footer {
         flex-shrink: 0;
         border: transparent;
-        background-color: #10141f;
+        background-color: rgba(0, 0, 36, 0.178);
         height: 50px;
         display: flex;
         align-items: center;
@@ -21,7 +21,7 @@
     }
 
     .footer-item {
-        opacity: .75;
+        opacity: .30;
     }
 
    .page {

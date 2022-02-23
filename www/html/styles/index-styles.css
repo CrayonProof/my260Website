@@ -4,14 +4,14 @@
         z-index: 1;
         width: 700px;
         height: 393.75px;
-        filter: drop-shadow(2px 2px 4px #00000057);
+        filter: drop-shadow(2px 2px 8px #00000057);
    }
 
    .title {
        border-radius: 1rem;
        background-color: white;
        padding: 0rem 1.5rem .25rem 1.5rem;
-       filter: drop-shadow(0px 0px 8px #ffffff);
+       filter: drop-shadow(0px 0px 4px #ffffff);
    }
 
 /* Mobile Styles */

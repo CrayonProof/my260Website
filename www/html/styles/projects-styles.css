@@ -11,18 +11,17 @@
 .project-container {
     border-radius: .75rem;
     overflow: hidden;
-    background-color: white;
+    /*background-color: rgb(255, 255, 255);*/
     width: 420px;
     height: 300px;
     margin: 1rem 2rem 1rem 2rem;
-    filter: drop-shadow(2px 2px 4px #00000057);
-
     color: rgb(42, 67, 121) !important;
+    padding: 2rem
 }
 
 .project-title {
     font-size: 3rem;
-    margin: .5rem 0 .25rem 0;
+    margin: 0rem 0 .25rem 0;
     text-align: center;
 }
 

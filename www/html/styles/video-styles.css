@@ -21,7 +21,7 @@
     width: 600px;
     height: 337.25px;
     margin: 1rem;
-    filter: drop-shadow(0px 0px 15px #ffffff);
+    filter: drop-shadow(2px 2px 8px #00000057);
 }
 
 .video-group {
