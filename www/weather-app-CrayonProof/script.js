@@ -10,7 +10,7 @@ if(button) {
             console.log("searchBox is empty");
             return;
         }
-        const url = "http://api.openweathermap.org/data/2.5/weather?q=" + value + ",US&units=imperial" + "&APPID=7fd60169ae5dc637999ba5f95719f26a";
+        const url = "https://api.openweathermap.org/data/2.5/weather?q=" + value + ",US&units=imperial" + "&APPID=7fd60169ae5dc637999ba5f95719f26a";
         fetch(url)
             .then(function(response) {
             return response.json();
