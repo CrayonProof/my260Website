@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: rgba(255, 255, 255, 0.548);
+    background-size: cover;
 }
 
 .page {
@@ -33,3 +34,69 @@ body {
     -webkit-backdrop-filter: blur( 11px );
     border: 1px solid rgba(255, 255, 255, 0.048);
 }
+
+/* Mobile Styles */
+@media only screen and (max-width: 470px) {
+    
+    .glass_card {
+        min-width: 18rem;
+        border-radius: 1rem;
+        margin: 1rem;
+        Padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.082);
+        backdrop-filter: blur( 11px );
+        background-color: rgba(255, 255, 255, 0.247);
+        -webkit-backdrop-filter: blur( 11px );
+        border: 1px solid rgba(255, 255, 255, 0.048);
+    }
+
+  }
+
+  /* Tablet Styles */
+  @media only screen and (min-width: 471px) and (max-width: 960px) {
+   
+    .glass_card {
+        min-width: 30rem;
+        border-radius: 1rem;
+        margin: 1rem;
+        Padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.082);
+        backdrop-filter: blur( 11px );
+        background-color: rgba(255, 255, 255, 0.247);
+        -webkit-backdrop-filter: blur( 11px );
+        border: 1px solid rgba(255, 255, 255, 0.048);
+    }
+
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    
+    .glass_card {
+        min-width: 40rem;
+        border-radius: 1rem;
+        margin: 1rem;
+        Padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.082);
+        backdrop-filter: blur( 11px );
+        background-color: rgba(255, 255, 255, 0.247);
+        -webkit-backdrop-filter: blur( 11px );
+        border: 1px solid rgba(255, 255, 255, 0.048);
+    }
+
+  }
