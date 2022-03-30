@@ -10,7 +10,7 @@ if(button) {
             console.log("searchBox is empty");
             return;
         }
-        const url = "http://api.openweathermap.org/data/2.5/weather?q=" + value + ",US&units=imperial" + "&APPID=7fd60169ae5dc637999ba5f95719f26a";
+        const url = "https://api.openweathermap.org/data/2.5/weather?q=" + value + ",US&units=imperial" + "&APPID=7fd60169ae5dc637999ba5f95719f26a";
         fetch(url)
             .then(function(response) {
             return response.json();
@@ -32,7 +32,7 @@ if(button) {
                 results += '<p>Humidity ' + json.main.humidity + "% </p> </div>"
                 document.getElementById("weatherResults").innerHTML = results;
             });
-            const url2 = "http://api.openweathermap.org/data/2.5/forecast?q=" + value + ", US&units=imperial" + "&APPID=7fd60169ae5dc637999ba5f95719f26a";
+            const url2 = "https://api.openweathermap.org/data/2.5/forecast?q=" + value + ", US&units=imperial" + "&APPID=7fd60169ae5dc637999ba5f95719f26a";
             fetch(url2)
               .then(function(response) {
                 return response.json();

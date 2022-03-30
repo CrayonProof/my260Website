@@ -1,0 +1,120 @@
+.spacex-title {
+    font-family: 'Work Sans', Arial;
+    font-size: 4rem;
+    margin: 2rem 0 1rem 0;
+    color: rgb(42, 67, 121) !important;
+    text-align: center;
+    
+    border-radius: 1rem;
+    background-color: white;
+    padding: 0rem 1.5rem .25rem 1.5rem;
+    filter: drop-shadow(0px 0px 4px #ffffff);
+    }
+
+.button {
+    padding: 0rem 1rem 0rem 1rem;
+    margin: 0rem 1rem 0rem 1rem;
+    border-radius: 1rem;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: #B5D3F4;
+}
+
+.launch-card {
+    padding: 2rem 2rem 2rem 2rem;
+    margin: 2rem 0rem 2rem 0rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container {
+    border-radius: .75rem;
+    overflow: hidden;
+    z-index: 1;
+    width: 700px;
+    height: 393.75px;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.flight-num-and-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 470px) {
+    
+    .launch-card {
+        width: 20rem;
+    }
+
+    .info-text {
+        width: 15rem;
+        font-size: 1rem;
+    }
+
+    .video-container {
+        border-radius: .75rem;
+        overflow: hidden;
+        z-index: 1;
+        width: 240px;
+        height: 135px;
+    }
+
+  }
+
+  /* Tablet Styles */
+  @media only screen and (min-width: 471px) and (max-width: 960px) {
+   
+    .launch-card {
+        width: 30rem;
+    }
+
+    .info-text {
+        width: 20rem;
+    }
+
+    .video-container {
+        border-radius: .75rem;
+        overflow: hidden;
+        z-index: 1;
+        width: 350px;
+        height: 196.875px;
+    }
+
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    
+    .launch-card {
+        width: 60rem;
+    }
+
+    .info-text {
+        width: 40rem;
+    }
+
+    .video-container {
+        border-radius: .75rem;
+        overflow: hidden;
+        z-index: 1;
+        width: 700px;
+        height: 393.75px;
+    }
+
+  }
