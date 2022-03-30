@@ -30,7 +30,7 @@ body {
 @media only screen and (max-width: 470px) {
     
     .glass_card {
-        min-width: 18rem;
+        width: 18rem;
         border-radius: 1rem;
         margin: 1rem;
         Padding: 1rem;
@@ -46,7 +46,7 @@ body {
   @media only screen and (min-width: 471px) and (max-width: 960px) {
    
     .glass_card {
-        min-width: 30rem;
+        width: 30rem;
         border-radius: 1rem;
         margin: 1rem;
         Padding: 1rem;
@@ -62,7 +62,7 @@ body {
   @media only screen and (min-width: 961px) {
     
     .glass_card {
-        min-width: 40rem;
+        width: 40rem;
         border-radius: 1rem;
         margin: 1rem;
         Padding: 1rem;
