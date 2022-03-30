@@ -30,7 +30,7 @@ body {
 @media only screen and (max-width: 470px) {
     
     .glass_card {
-        width: 18rem;
+        width: 20rem;
         border-radius: 1rem;
         margin: 1rem;
         Padding: 1rem;
