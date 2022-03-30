@@ -29,7 +29,7 @@ body {
     align-items: center;
 
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.082);
-    backdrop-filter: blur( 11px );
+    backdrop-filter: blur( 16px );
     background-color: rgba(255, 255, 255, 0.247);
     -webkit-backdrop-filter: blur( 11px );
     border: 1px solid rgba(255, 255, 255, 0.048);
@@ -47,12 +47,6 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.082);
-        backdrop-filter: blur( 11px );
-        background-color: rgba(255, 255, 255, 0.247);
-        -webkit-backdrop-filter: blur( 11px );
-        border: 1px solid rgba(255, 255, 255, 0.048);
     }
 
   }
@@ -69,12 +63,6 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.082);
-        backdrop-filter: blur( 11px );
-        background-color: rgba(255, 255, 255, 0.247);
-        -webkit-backdrop-filter: blur( 11px );
-        border: 1px solid rgba(255, 255, 255, 0.048);
     }
 
   }
@@ -91,12 +79,6 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.082);
-        backdrop-filter: blur( 11px );
-        background-color: rgba(255, 255, 255, 0.247);
-        -webkit-backdrop-filter: blur( 11px );
-        border: 1px solid rgba(255, 255, 255, 0.048);
     }
 
   }
