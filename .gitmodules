@@ -1,0 +1,3 @@
+[submodule "www/www/BYU-xkcd-browser-CrayonProof"]
+	path = www/www/BYU-xkcd-browser-CrayonProof
+	url = https://github.com/BYUCS260/xkcd-browser-CrayonProof
