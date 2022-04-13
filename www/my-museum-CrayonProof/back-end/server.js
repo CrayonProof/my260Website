@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({
 const mongoose = require('mongoose');
 
 // connect to the database
-mongoose.connect('mongodb://localhost:27017/museum', {
+mongoose.connect('mongodb://localhost:27017/museum2', {
   useNewUrlParser: true
 });
 
@@ -73,12 +73,27 @@ app.get('/api/items', async (req, res) => {
   }
 });
 
-// Create a new item in the museum: takes a title and a path to an image.
+// Create a new item in the museum: takes a path to an image.
 app.delete('/api/items/:id', async (req, res) => {
   try {
     await Item.deleteOne({
       _id: req.params.id
     });
+    res.sendStatus(200);
+  } catch (error) {
+    console.log(error);
+    res.sendStatus(500);
+  }
+});
+
+// Edit an item in the museum: takes a title and a path to an image.
+app.put('/api/items/:id', async (req, res) => {
+  try {
+    let item = await Item.findOne({
+      _id: req.params.id
+    });
+    item.title = req.body.title
+    await item.save();
     res.sendStatus(200);
   } catch (error) {
     console.log(error);
