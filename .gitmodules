@@ -7,3 +7,6 @@
 [submodule "www/www/museum-CrayonProof"]
 	path = www/www/museum-CrayonProof
 	url = https://github.com/BYUCS260/museum-CrayonProof
+[submodule "www/www/BYU-museum-CrayonProof"]
+	path = www/www/BYU-museum-CrayonProof
+	url = https://github.com/BYUCS260/museum-CrayonProof
