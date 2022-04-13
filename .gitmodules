@@ -4,3 +4,6 @@
 [submodule "www/www/BYU-grocery-store-CrayonProof"]
 	path = www/www/BYU-grocery-store-CrayonProof
 	url = https://github.com/BYUCS260/grocery-store-CrayonProof
+[submodule "www/www/museum-CrayonProof"]
+	path = www/www/museum-CrayonProof
+	url = https://github.com/BYUCS260/museum-CrayonProof
