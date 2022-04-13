@@ -25,6 +25,11 @@
     </div>
   </div>
   <router-view />
+  <div class="footer">
+    <a href = "https://github.com/CrayonProof/my260Website/tree/master/www/cp3">
+      <p>Github</p>
+    </a>
+  </div>
 </div>
 </template>
 
