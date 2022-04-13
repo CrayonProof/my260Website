@@ -72,3 +72,16 @@ app.get('/api/items', async (req, res) => {
     res.sendStatus(500);
   }
 });
+
+// Create a new item in the museum: takes a title and a path to an image.
+app.delete('/api/items/:id', async (req, res) => {
+  try {
+    await Item.deleteOne({
+      _id: req.params.id
+    });
+    res.sendStatus(200);
+  } catch (error) {
+    console.log(error);
+    res.sendStatus(500);
+  }
+});
