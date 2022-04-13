@@ -15,7 +15,7 @@
   </div>
   <div class="footer">
     <router-link to="/admin">Admin</router-link>
-    <a href = https://github.com/BYUCS260/museum-CrayonProof>Github</a>
+    <a href = https://github.com/BYUCS260/museum-CrayonProof>Github </a>
   </div>
 </div>
 </template>
